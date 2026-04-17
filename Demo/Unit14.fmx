@@ -1,0 +1,55 @@
+object Form14: TForm14
+  Left = 0
+  Top = 0
+  Caption = 'Form14'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 40.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 545.000000000000000000
+    Size.Height = 377.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 541.000000000000000000
+    Viewport.Height = 373.000000000000000000
+  end
+  object Button1: TButton
+    Position.X = 40.000000000000000000
+    Position.Y = 424.000000000000000000
+    TabOrder = 1
+    Text = 'Button1'
+    TextSettings.Trimming = None
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 144.000000000000000000
+    Position.Y = 424.000000000000000000
+    TabOrder = 2
+    Text = 'Button2'
+    TextSettings.Trimming = None
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Position.X = 264.000000000000000000
+    Position.Y = 424.000000000000000000
+    TabOrder = 4
+    Text = 'Button3'
+    TextSettings.Trimming = None
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Position.X = 392.000000000000000000
+    Position.Y = 424.000000000000000000
+    TabOrder = 5
+    Text = 'Benchmark'
+    TextSettings.Trimming = None
+    OnClick = Button4Click
+  end
+end
