@@ -77,10 +77,10 @@ See **[PERFORMANCE.md](PERFORMANCE.md)** for full benchmark data.
 
 ## Quick Start
 
-Add `XSuperJSON.pas` and `XSuperObject.pas` to your project.
+Add `ZSuperJSON.pas` and `ZSuperObject.pas` to your project.
 
 ```pascal
-uses XSuperObject;
+uses ZSuperObject;
 
 var X: ISuperObject;
 begin
