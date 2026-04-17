@@ -77,10 +77,10 @@
 
 ## 快速开始
 
-将 `XSuperJSON.pas` 与 `XSuperObject.pas` 加入项目。
+将 `ZSuperJSON.pas` 与 `ZSuperObject.pas` 加入项目。
 
 ```pascal
-uses XSuperObject;
+uses ZSuperObject;
 
 var X: ISuperObject;
 begin
