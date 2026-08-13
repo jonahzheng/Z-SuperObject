@@ -7,6 +7,9 @@
   <img src="https://img.shields.io/badge/Platform-Win32%20Win64%20macOS%20iOS%20Android-green.svg" alt="Platform">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
   <img src="https://img.shields.io/badge/Pascal-Free%20Pascal%20Compatible-orange.svg" alt="FPC">
+  <a href="https://github.com/sponsors/jonahzheng">
+    <img src="https://img.shields.io/badge/Sponsor-me%20on%20GitHub-black.svg" alt="Sponsor me on GitHub">
+  </a>
 </p>
 
 <p align="center">
