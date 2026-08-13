@@ -23,9 +23,18 @@
 __history/
 __recovery/
 Android/
+Android64/
 iOSDevice32/
+iOSDevice64/
+iOSSimARM64/
+Linux64/
 OSX32/
+OSX64/
+OSXARM64/
 iOSSimulator/
+Win32/
+Win64/
+Win64x/
 
 #idea project
 #/.idea
@@ -36,6 +45,7 @@ iOSSimulator/
 *.cfg
 *.hpp
 *Resource.rc
+*.res
 
 # Delphi local files (user-specific info)
 *.local

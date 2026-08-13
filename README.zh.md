@@ -83,7 +83,23 @@
 
 ## 快速开始
 
-将 `ZSuperJSON.pas` 与 `ZSuperObject.pas` 加入项目。
+### 安装 Delphi 包（DPK）
+
+在 Delphi 中打开 `ZSuperObject.dpk`，执行 **Project ▸ Build**，然后 **Component ▸ Install Packages ▸ Add** 选择生成的 `ZSuperObject.bpl`。该包依赖 `rtl`、`dbrtl`、`IndyCore`、`IndySystem`。
+
+或用命令行构建：
+
+```bat
+msbuild ZSuperObject.dproj /t:Build /p:Config=Release /p:Platform=Win32
+```
+
+安装后即注册 `ZSuperJSON` 和 `ZSuperObject` 两个单元，只需：
+
+```pascal
+uses ZSuperObject;
+```
+
+也可以不安装包，直接将 `ZSuperJSON.pas` 与 `ZSuperObject.pas` 加入项目。
 
 ```pascal
 uses ZSuperObject;

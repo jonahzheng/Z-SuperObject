@@ -27,7 +27,7 @@ package ZSuperObject;
 
 requires
   rtl,
-  db,
+  dbrtl,
   IndyCore,
   IndySystem;
 

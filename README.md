@@ -83,7 +83,23 @@ See **[PERFORMANCE.md](PERFORMANCE.md)** for full benchmark data.
 
 ## Quick Start
 
-Add `ZSuperJSON.pas` and `ZSuperObject.pas` to your project.
+### Install as a Delphi Package (DPK)
+
+Open `ZSuperObject.dpk` in Delphi, then **Project ▸ Build** and **Component ▸ Install Packages ▸ Add** to select the generated `ZSuperObject.bpl`. The package requires `rtl`, `dbrtl`, `IndyCore` and `IndySystem`.
+
+Or build from the command line:
+
+```bat
+msbuild ZSuperObject.dproj /t:Build /p:Config=Release /p:Platform=Win32
+```
+
+The package registers units `ZSuperJSON` and `ZSuperObject`, so you only need:
+
+```pascal
+uses ZSuperObject;
+```
+
+You can also add `ZSuperJSON.pas` and `ZSuperObject.pas` directly to your project instead of installing the package.
 
 ```pascal
 uses ZSuperObject;
