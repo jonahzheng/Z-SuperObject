@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/sponsors/jonahzheng">
-    <img src="https://img.shields.io/badge/Sponsor%20me%20on%20GitHub-black?style=for-the-badge&logo=github&logoColor=white" alt="Sponsor me on GitHub">
+    <img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%20Sponsor%20me%20on%20GitHub-EA4AAA?style=for-the-badge&logo=github&logoColor=white" alt="Sponsor me on GitHub">
   </a>
 </p>
 
